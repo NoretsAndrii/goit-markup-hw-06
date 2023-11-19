@@ -20,7 +20,7 @@ h3 {
   color: #2e2f42;
 }
 
-h2 {
+/* h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -32,7 +32,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-}
+} */
 
 button {
   cursor: pointer;
@@ -51,6 +51,8 @@ ul {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 input,
@@ -59,15 +61,140 @@ textarea {
   font-size: inherit;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
+  min-width: 320px;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.section {
+/* -----------------------------MOBILE--------------------------- */
+
+/* ------------Main Advanyages------------ */
+
+.main-advantages .container {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.main-advantages-items {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 72px;
+}
+
+.advantages-icon-box {
+  display: none;
+}
+
+.main-advantages-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+}
+
+.main-advantages-item-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.main-advantages-item-text {
+  font-weight: 500;
+}
+
+/* ------------Main Our Tean------------ */
+
+.main-our-team {
+  background-color: #f4f4fd;
+}
+
+.main-our-team .container {
+  padding: 96px 28px;
+}
+
+.main-our-team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.main-our-team-items {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 72px;
+  padding-bottom: 32px;
+}
+
+.main-our-team-item {
+  min-width: 264px;
+  width: 100%;
+  padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.main-our-team-item-image {
+  margin-bottom: 32px;
+}
+
+.main-our-team-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+}
+
+.main-our-team-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.social-link-list {
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.our-team-icon-link {
+  display: flex;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.our-team-icon {
+  fill: #f4f4fd;
+}
+
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -83,7 +210,7 @@ textarea {
 
 /* Header */
 
-.header {
+/* .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -170,11 +297,11 @@ textarea {
 .header-address-menu-item-link:hover,
 .header-address-menu-item-link:focus {
   color: #404bbf;
-}
+} */
 
 /* Main Top */
 
-.main-top.section {
+/* .main-top.section {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -223,22 +350,11 @@ textarea {
 .main-top-button:hover,
 .main-top-button:focus {
   background-color: #404bbf;
-}
+} */
 
 /* Main Advantages  */
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+/* 
 
 .main-advantages-items {
   gap: 24px;
@@ -272,7 +388,7 @@ textarea {
 
 /* Main Our Team */
 
-.main-our-team {
+/* .main-our-team {
   background-color: #f4f4fd;
 }
 
@@ -336,11 +452,11 @@ textarea {
 
 .our-team-icon {
   fill: #f4f4fd;
-}
+}  */
 
 /* Main Our Portfolio */
 
-.main-our-portfolio-title {
+/* .main-our-portfolio-title {
   margin-bottom: 72px;
 }
 
@@ -391,11 +507,11 @@ textarea {
 
 .main-our-portfolio-item-title {
   margin-bottom: 8px;
-}
+} */
 
 /* Footer */
 
-.footer {
+/* .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
   padding-top: 100px;
@@ -502,11 +618,11 @@ textarea {
 .footer-subscribe-button-icon {
   margin-left: 16px;
   fill: #fff;
-}
+} */
 
 /* Backdrop and Modal */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -723,4 +839,4 @@ textarea {
 .modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
-}
+} */
