@@ -51,7 +51,7 @@ ul {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -159,6 +159,7 @@ textarea {
 
 .main-our-team-item-image {
   margin-bottom: 32px;
+  width: 100%;
 }
 
 .main-our-team-card-content {
