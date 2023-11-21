@@ -23,19 +23,23 @@
     <!-- Header -->
 
     <header class="header">
-      <div class="container">
-        <div>
-          <a href="./index.html" class="logo"
-            >Web<span class="logo-studio">Studio</span></a
+      <div class="container header-container">
+        <div class="header-mobile">
+          <a href="./index.html" class="logo logo-header"
+            >Web<span class="logo-studio-header">Studio</span></a
           >
-          <a href="#menu"
-            ><svg width="24" height="24">
-              <use
-                href="/images/icons.svg#icon-heroicons-solid_menu"
-              ></use></svg
-          ></a>
+          <a href="#menu" class="menu-icon-link"
+            ><svg class="menu-icon" width="24" height="24">
+              <use href="/images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+          </a>
         </div>
         <div class="menu" id="menu">
+          <a href="./index.html" class="header-menu-close"
+            ><svg class="modal-icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </a>
           <nav class="header-nav">
             <ul class="header-nav-menu">
               <li class="header-nav-menu-items">
@@ -65,7 +69,7 @@
               <li class="header-address-menu-item">
                 <a
                   href="tel:+110001111111"
-                  class="header-address-menu-item-link"
+                  class="header-address-menu-item-link tel"
                   >+11 (000) 111-11-11</a
                 >
               </li>
