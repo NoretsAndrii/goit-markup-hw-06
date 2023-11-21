@@ -522,14 +522,19 @@ textarea {
     text-align: start;
   }
 
+  .footer-form {
+    display: flex;
+    align-items: flex-start;
+  }
+
   .footer-media-box {
     margin-right: 80px;
   }
 
   .footer-subscribe-input {
-    display: inline-block;
     width: 264px;
     margin-right: 24px;
+    margin-bottom: 0;
   }
 
   .footer-subscribe-button {
@@ -643,6 +648,10 @@ textarea {
 
   .footer-logo-box {
     margin-right: 120px;
+  }
+
+  .footer-subscribe-input {
+    opacity: 1;
   }
 }
 
