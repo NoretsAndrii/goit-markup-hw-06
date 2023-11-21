@@ -162,7 +162,7 @@ textarea {
   margin-right: auto;
 }
 
-/* ------------Main Advanyages------------ */
+/* ------------Main Advantages------------ */
 
 .main-advantages-items {
   flex-direction: column;
@@ -265,7 +265,8 @@ textarea {
   background-color: #4d5ae5;
   justify-content: center;
   align-items: center;
-  padding: 12px;
+  width: 40px;
+  height: 40px;
 }
 
 .our-team-icon {
@@ -377,10 +378,6 @@ textarea {
 
 .social-link-list-footer {
   column-gap: 16px;
-}
-
-.our-team-icon-link.footer-icon {
-  padding: 8px;
 }
 
 .footer-subscribe-input {
