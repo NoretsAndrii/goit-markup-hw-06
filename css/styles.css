@@ -174,8 +174,8 @@ textarea {
 }
 
 .header-menu-close {
-  min-width: 24px;
-  min-height: 24px;
+  width: 24px;
+  height: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,11 +186,14 @@ textarea {
   margin-bottom: 24px;
 }
 
+.header-nav {
+  margin-bottom: auto;
+}
+
 .header-nav-menu {
   flex-direction: column;
   align-items: flex-start;
   row-gap: 40px;
-  margin-bottom: auto;
 }
 
 .header-nav-menu-items {
@@ -780,9 +783,12 @@ textarea {
     display: none;
   }
 
+  .header-nav {
+    margin-bottom: 0;
+  }
+
   .header-nav-menu {
     flex-direction: row;
-    margin-bottom: 0;
     column-gap: 40px;
     align-items: center;
   }

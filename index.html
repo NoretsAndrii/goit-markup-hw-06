@@ -24,7 +24,7 @@
 
     <header class="header">
       <div class="container header-container">
-        <nav class="header-nav"></nav><div class="header-mobile">
+        <div class="header-mobile">
           <a href="./index.html" class="logo logo-header"
             >Web<span class="logo-studio-header">Studio</span></a
           >
@@ -34,13 +34,14 @@
             </svg>
           </a>
         </div>
+
         <div class="menu" id="menu">
           <a href="./index.html" class="header-menu-close"
             ><svg class="modal-icon-close" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </a>
-          
+          <nav class="header-nav">
             <ul class="header-nav-menu">
               <li class="header-nav-menu-items">
                 <a
@@ -664,7 +665,7 @@
 
     <!-- Modal window -->
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-form-button-close">
           <svg class="modal-icon-close" width="8" height="8">
