@@ -20,20 +20,6 @@ h3 {
   color: #2e2f42;
 }
 
-/* h2 {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-} */
-
 button {
   border: none;
   cursor: pointer;
@@ -335,7 +321,7 @@ textarea {
   font-weight: 500;
 }
 
-/* ------------Main Our Tean------------ */
+/* ------------Main Our Team------------ */
 
 .main-our-team {
   background-color: #f4f4fd;
@@ -772,7 +758,7 @@ textarea {
   .menu {
     position: static;
     z-index: inherit;
-    transform: translateY(0);
+    transform: translateX(0);
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -869,7 +855,7 @@ textarea {
     text-align: left;
   }
 
-  /* ------------Main Our Tean------------ */
+  /* ------------Main Our Team------------ */
 
   .main-our-team-container {
     padding-left: 108px;
