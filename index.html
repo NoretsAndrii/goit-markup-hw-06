@@ -445,7 +445,7 @@
           <ul class="main-our-portfolio-items">
             <li class="main-our-portfolio-item">
               <div class="overlay-box">
-                <img
+                <!-- <img
                   class="main-our-portfolio-item-image"
                   srcset="
                     ./images/ourproject/bankingapp.jpg    1x,
@@ -453,7 +453,34 @@
                   "
                   src="./images/ourproject/bankingapp.jpg"
                   alt="Project Banking App"
-                />
+                /> -->
+                <picture class="main-our-portfolio-item-image">
+                  <source
+                    class="main-our-portfolio-item-image"
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/ourproject/bankingapp.jpg    1x,
+                      ./images/ourproject/bankingapp@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    class="main-our-portfolio-item-image"
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/ourproject/cashlesspayment.jpg    1x,
+                      ./images/ourproject/cashlesspayment@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="main-our-portfolio-item-image"
+                    srcset="
+                      ./images/ourproject/meditationapp.jpg    1x,
+                      ./images/ourproject/meditationapp@2x.jpg 2x
+                    "
+                    src="./images/ourproject/meditationapp.jpg"
+                    alt="Project Meditation App"
+                  />
+                </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
