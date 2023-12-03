@@ -1218,6 +1218,10 @@ textarea {
     fill: #f4f4fd;
   }
 
+  .checkbox:focus + label > .checkbox-span {
+    border-color: #404bbf;
+  }
+
   .modal-button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
