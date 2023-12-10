@@ -62,8 +62,7 @@ textarea {
 }
 
 .container {
-  min-width: 320px;
-  max-width: 1158px;
+  max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -245,7 +244,9 @@ textarea {
   margin-right: auto;
 }
 
-@media (min-resolution: 192dpi) {
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
   .main-top-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -743,6 +744,10 @@ textarea {
 /* -----------------------------TABLET--------------------------- */
 
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
   /* ------------Header------------ */
 
   .header {
@@ -841,7 +846,9 @@ textarea {
       url(../images/background/bg-tablet.jpg);
   }
 
-  @media (min-resolution: 192dpi) {
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
     .main-top-section {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -959,6 +966,7 @@ textarea {
   }
 
   .container {
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -999,7 +1007,9 @@ textarea {
       url(../images/background/bg-desctop.jpg);
   }
 
-  @media (min-resolution: 192dpi) {
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
     .main-top-section {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
